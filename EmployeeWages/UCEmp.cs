@@ -15,19 +15,34 @@ namespace EmployeeWages
             int empWage = 0;
             Random rand = new Random();
             int empCheck = rand.Next(0, 3);
-            if (empCheck == isParttime)
+            //if (empCheck == isParttime)
+            //{
+            //    empHrs = 4;
+            //}
+            //else if (empCheck == isFulltime)
+            //{
+            //    empHrs = 8;
+            //}
+            //else
+            //{
+            //    empHrs = 0;
+            //}
+            switch (empCheck)
             {
-                empHrs = 4;
+                case isParttime:
+                    empHrs = 4;
+                    break;
+
+                case isFulltime:
+                    empHrs = 8;
+                    break;
+
+                default:
+                    empHrs = 0;
+                    break;
+
             }
-            else if (empCheck == isFulltime)
-            {
-                empHrs = 8;
-            }
-            else
-            {
-                empHrs = 0;
-            }
-            Console.WriteLine("UC3");
+            Console.WriteLine("UC4");
             Console.WriteLine("-------------------------------");
             empWage = empHrs * empRateHrs;
             Console.WriteLine("Emp Wage is : " + empWage);
