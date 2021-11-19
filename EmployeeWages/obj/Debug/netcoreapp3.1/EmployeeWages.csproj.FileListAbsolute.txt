@@ -1,0 +1,14 @@
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.exe
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.deps.json
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.runtimeconfig.json
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.runtimeconfig.dev.json
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.dll
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\bin\Debug\netcoreapp3.1\EmployeeWages.pdb
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.csproj.AssemblyReference.cache
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.GeneratedMSBuildEditorConfig.editorconfig
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.AssemblyInfoInputs.cache
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.AssemblyInfo.cs
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.csproj.CoreCompileInputs.cache
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.dll
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.pdb
+E:\bridgelabz\.net\Assignments\EmployeeWages\EmployeeWages\obj\Debug\netcoreapp3.1\EmployeeWages.genruntimeconfig.cache
