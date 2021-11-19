@@ -6,36 +6,32 @@ namespace EmployeeWages
 {
     public class UCEmp
     {
-        //public const int isParttime = 1;
-        public const int isFulltime = 1;
+        public const int isParttime = 1;
+        public const int isFulltime = 2;
         public const int empRateHrs = 20;
         public void UCEwage()
         {
             int empHrs = 0;
             int empWage = 0;
-            Console.WriteLine("UC2");
-            Console.WriteLine("-------------------------------");
             Random rand = new Random();
-            int empCheck = rand.Next(0, 2);
-            if (empCheck == isFulltime)
+            int empCheck = rand.Next(0, 3);
+            if (empCheck == isParttime)
             {
-                //Console.WriteLine("Employee is Present");
+                empHrs = 4;
+            }
+            else if (empCheck == isFulltime)
+            {
                 empHrs = 8;
             }
-            //else if (empCheck == isFulltime)
-            //{
-            //    empHrs = 8;
-            //}
             else
             {
-                //Console.WriteLine("Employee is Present");
                 empHrs = 0;
             }
-
+            Console.WriteLine("UC3");
+            Console.WriteLine("-------------------------------");
             empWage = empHrs * empRateHrs;
             Console.WriteLine("Emp Wage is : " + empWage);
             Console.WriteLine("-------------------------------");
-
         }
     }
 }
