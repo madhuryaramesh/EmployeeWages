@@ -11,7 +11,7 @@ namespace EmployeeWages
         public const int empRateHrs = 20;
         public const int numWrkDays = 2;
         public const int maxHrMnth = 10;
-        public void UCEwage()
+        public static int UCEwage()
         {
             int empHrs = 0;
             int empWage = 0;
@@ -50,7 +50,7 @@ namespace EmployeeWages
                         break;
 
                 }
-                Console.WriteLine("UC6");
+                Console.WriteLine("UC7");
                 Console.WriteLine("-------------------------------");
                 totalEmpHrs = totalEmpHrs + empHrs;
                 Console.WriteLine("Days :" + totalWrkDays + "Employment Hours : " + empHrs);
@@ -60,7 +60,8 @@ namespace EmployeeWages
             }
             totalEmpWage = totalEmpHrs + empRateHrs;
             Console.WriteLine("Total Emp Wage is : " + totalEmpWage);
-            Console.WriteLine("-------------------------------");
+            return totalEmpWage;
+          
         }
     }
 }
