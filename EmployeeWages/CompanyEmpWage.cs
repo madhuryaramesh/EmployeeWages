@@ -4,7 +4,13 @@ using System.Text;
 
 namespace EmployeeWages
 {
-    class CompanyEmpWage
+    public interface IComputeEmpWage
+    {
+        public void addCompanyEmpWage(string company, int empRateHrs, int numWrkDays, int maxHrMnth);
+        public void ComputeEmpWage();
+        public int getTotalWage(string company);
+    }
+    public class CompanyEmpWage
     {
         public string company;
         public int empRateHrs;
@@ -19,7 +25,7 @@ namespace EmployeeWages
             this.empRateHrs = empRateHrs;
             this.numWrkDays = numWrkDays;
             this.maxHrMnth = maxHrMnth;
-
+            this.totalEmpWage = 0;
         }
 
         public void setTotalEmpWage(int totalEmpWage)
